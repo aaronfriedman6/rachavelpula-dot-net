@@ -16,6 +16,6 @@ jobs:
           rsync -av --delete \
             --exclude '.git*' \
             --exclude 'README.md' \
-            --exclude 'readme-images* \
+            --exclude 'readme-images*' \
             --exclude 'robots.txt' \
             ./ /var/www/rachavelpula/public_html/
