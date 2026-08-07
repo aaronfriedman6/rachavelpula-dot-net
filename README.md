@@ -1,5 +1,5 @@
 # How to update your website
-Go to https://github.com/aaronfriedman6/rachavelpula-dot-net.
+Go to https://github.com/aaronfriedman6/rachavelpula-dot-net
 
 ## To edit an existing file
 1. Click on the name of the file and then the pencil icon here: ![pencil icon](readme-images/pencil.png)
