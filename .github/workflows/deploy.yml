@@ -1,0 +1,21 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Copy files to web root
+        run: |
+          rsync -av --delete \
+            --exclude '.git*' \
+            --exclude 'README.md' \
+            --exclude 'readme-images* \
+            --exclude 'robots.txt' \
+            ./ /var/www/rachavelpula/public_html/
