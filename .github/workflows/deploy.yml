@@ -41,4 +41,5 @@ jobs:
             --exclude '.git*' \
             --exclude 'README.md' \
             --exclude 'readme-images*' \
+            --exclude 'cloudflared.deb' \
             ./ sbc:/var/www/rachavelpula/public_html/
